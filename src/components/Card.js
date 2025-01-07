@@ -32,7 +32,7 @@ function Card(props) {
     }
 
   return (
-    <div className='bg-bgDark bg-opacity-80 w-[300px] rounded-md overflow-hidden'>
+    <div className='bg-bgDark bg-opacity-80 w-[300px] rounded-md overflow-hidden' onDoubleClick={clickHandler}>
         <div className='relative '>
             <img src={course.image.url} alt="Course-img" className='' />
             <div className='rounded-full w-[40px] h-[40px] bg-white absolute right-2 bottom-[-12px] grid place-items-center'>
